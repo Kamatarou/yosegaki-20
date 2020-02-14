@@ -1,0 +1,50 @@
+body{
+    background-color: azure;
+}
+#header{
+    margin : 500px 0px;
+    text-align: center;
+}
+#content{
+    margin:auto;
+}
+td{
+    width : 100vw;
+}
+tr:nth-child(2n+1){
+    background-color: #9ff1f1;
+    text-align: right;
+}
+tr:nth-child(2n){
+    background: #ceffff;
+    text-align: left;
+}
+tr:nth-child(2n+1) p{
+    padding-right: 100px;
+   
+}
+tr:nth-child(2n) p{
+    padding-left: 100px;
+}
+.movingtext{
+    font-size : 1.5em;
+    font-weight: bold;
+    animation-name: fadein;
+    animation-duration: 2s;
+    animation-iteration-count: 1;
+}
+@keyframes fadein{
+    from{
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to{
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+#footer{
+    margin : 250px 0px 50px;
+    text-align: center;
+}
