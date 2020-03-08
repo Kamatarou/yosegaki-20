@@ -91,6 +91,7 @@ figure {
   font-size: 8vw;
   letter-spacing: -0.125rem;
   text-align: center;
+  -webkit-text-stroke: 1px #000;
 }
 @media (min-width: 1200px) {
   .hero__title {

@@ -29,7 +29,7 @@ tr:nth-child(2n) p{
     padding-right: 50px;
 }
 .movingtext{
-    font-size : 1.5em;
+    font-size : 1.7em;
     font-weight: bold;
     animation-name: fadein;
     animation-duration: 2s;
